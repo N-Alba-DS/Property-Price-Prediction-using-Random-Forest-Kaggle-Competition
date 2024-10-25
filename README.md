@@ -58,6 +58,6 @@ El script fue desarrollado en Python y utiliza las siguientes librerías princip
 
 ## Conclusiones
 
-- La segmentación por tipo de propiedad permitió reducir el sesgo y mejorar la precisión de las predicciones.
+- La segmentación por tipo de propiedad (Casas, departamentos y cocheras) y jerárquica (entre departamentos de Puerto Madero y el resto de CABA), permitió reducir el sesgo y mejorar la precisión de las predicciones.
 - El uso de técnicas de imputación avanzadas contribuyó a manejar eficazmente los datos faltantes.
 - La optimización de hiperparámetros mediante GridSearchCV y la validación cruzada fueron fundamentales para evitar el sobreajuste. Remarcando que debido a la inexperiencia al momento del proyecto no se contaba con conocimientos de otras herramientas más eficientes de optimización bayesiana. 
