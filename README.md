@@ -6,7 +6,7 @@ Este repositorio contiene el código y la documentación del proyecto de predicc
 
 Este proyecto aplica técnicas de minería de datos impartidas en la materia Data Mining del primer semestre de la **Maestría en Explotación de Datos y Descubrimiento del Conocimiento** de la UBA. El objetivo es predecir los valores de propiedades en la Ciudad Autónoma de Buenos Aires.
 
-La estrategia general consistió en entrenar modelos de regresión segmentados por subgrupos de propiedades, realizando una segmentación jerárquica del conjunto de datos. Estos subgrupos buscan encontrar modelos que reduzcan el sesgo y sean capaces de capturar la máxima varianza sin sobreajustar, con el fin de minimizar la **Raíz del Error Cuadrático Medio (RMSE)**, la métrica utilizada en la competencia para evaluar las predicciones.
+La estrategia general consistió en entrenar modelos que implementan Random Forest Regressor de la librería Sklearn por subgrupos de propiedades, realizando una segmentación jerárquica del conjunto de datos. Estos subgrupos buscan encontrar modelos que reduzcan el sesgo y sean capaces de capturar la máxima varianza sin sobreajustar, con el fin de minimizar la **Raíz del Error Cuadrático Medio (RMSE)**, la métrica utilizada en la competencia para evaluar las predicciones.
 
 Se desarrollaron cuatro modelos, cada uno enfocado en un tipo diferente de propiedad:
 
